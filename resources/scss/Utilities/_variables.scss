@@ -1,0 +1,32 @@
+
+// ---------------------------
+// COLORS
+// ---------------------------
+
+$main: #58e1c1;
+$main-light: lighten($main, 20%);
+$main-dark: darken($main, 20%);
+$main-complement: complement($main);
+
+$error: #e4757a;
+$default: #51ddfc;
+$info: #927bc1;
+$success: #63cc82;
+$warning: #fd7856;
+
+$body-color: #777;
+$body-color-complement: complement($body-color);
+
+$white: #fff;
+
+// -------------------
+// MEDIA QUIRIES
+// ------------------
+
+$media-m: 768px;
+
+
+// -------------------
+// FONTS
+// ------------------
+$font: 'Lato', sans-serif;
